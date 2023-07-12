@@ -1,4 +1,3 @@
 import requests
 
-response = requests.get("https://api.ipify.org/?format=json")
-return response
+print(requests.get("https://api.ipify.org/?format=json").text)
